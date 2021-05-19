@@ -1,0 +1,50 @@
+.part1{
+    background-image: url(../image/first.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position:absolute;;
+}
+
+.part1 .words{
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:30%;
+    left:30%
+}
+
+.part1 .words .future{
+    font-size: 57px;
+    line-height: 67px;
+    color: #FFFFFF
+}
+
+.part1 .words .perfect{
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.part1 .words .twoButtons{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 60px;
+}
+
+.part1 .words .twoButtons .buttons{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
